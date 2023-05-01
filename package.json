@@ -1,0 +1,40 @@
+{
+  "name": "set-timeout-manager",
+  "version": "1.0.0",
+  "description": "A utility class for managing timeouts created by setTimeout",
+  "keywords": [
+    "setTimeout",
+    "clearTimeout",
+    "timeout",
+    "utility",
+    "manager"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "lint": "tsc",
+    "release": "pnpm run build && changeset publish",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.26.1",
+    "@types/jest": "^29.5.1",
+    "@types/node": "^18.16.2",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "tsup": "^6.7.0",
+    "typescript": "^4.5.4"
+  },
+  "license": "MIT",
+  "author": "Ademílson F. Tonato - @ftonato",
+  "homepage": "https://github.com/ftonato/set-timeout-manager#readme",
+  "bugs": {
+    "url": "https://github.com/ftonato/set-timeout-manager/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ftonato/set-timeout-manager.git"
+  }
+}
